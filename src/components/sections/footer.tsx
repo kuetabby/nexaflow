@@ -3,15 +3,15 @@ import { findUsLink, socialsLink } from "@/constant/links";
 const data_footer = [
   {
     name: "Twitter",
-    link: socialsLink.twitter,
+    link: "https://x.com/NexaFlow_Sol",
   },
   {
-    name: "Whitepaper",
-    link: socialsLink.whitepaper,
+    name: "Telegram",
+    link: "https://t.me/nexa_flow_bot",
   },
   {
-    name: "Dexscreener",
-    link: findUsLink.dexscreener,
+    name: "Documentation",
+    link: "https://docs.nexaflow.tech/",
   },
 ];
 

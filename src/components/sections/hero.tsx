@@ -36,28 +36,13 @@ const Hero = () => {
                 <img src="/images/shape/dot-shape-circle.png" alt="Shape" />
               </div>
               <div className="mt-10 ">
-                <Link
-                  rel="noopener noreferrer"
-                  target="_blank"
-                  href={socialsLink.bot}
-                  className="no-underline hover:underline"
-                >
-                  <Button className="mr-4" asLinked={true} path={"#"}>
-                    Start <FontAwesomeIcon icon={faPlay} fontSize={14} />
-                  </Button>
-                </Link>
+                <Button className="mr-4" asLinked={true} path={"https://t.me/nexa_flow_bot"}>
+                  Start <FontAwesomeIcon icon={faPlay} fontSize={14} />
+                </Button>
 
-                <Link
-                  rel="noopener noreferrer"
-                  target="_blank"
-                  href={socialsLink.whitepaper}
-                  className="no-underline hover:underline"
-                >
-                  <Button asLinked={true} path={"#"}>
-                    Documentation{" "}
-                    <FontAwesomeIcon icon={faBook} fontSize={14} />
-                  </Button>
-                </Link>
+                <Button asLinked={true} path={"https://docs.nexaflow.tech/"}>
+                  Documentation <FontAwesomeIcon icon={faBook} fontSize={14} />
+                </Button>
               </div>
             </SlideUp>
             {/* / END HERO DESIGN AREA */}
