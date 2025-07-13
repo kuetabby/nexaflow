@@ -29,5 +29,5 @@ function Title({ children }: Props) {
 }
 
 function Description({ children }: Props) {
-    return <p className="mt-[25px]">{children}</p>
+    return <p className="mt-[18px]" style={{ fontSize: '14px'}} >{children}</p>
 }

@@ -12,9 +12,9 @@ const About = () => {
           <div className="lg:w-[40%] w-full flex-shrink flex-grow-0 basis-auto">
             <SlideUp delay={3}>
               <div className="about-image-part relative">
-                <img src="/images/about/about.jpg" alt="About NexaFlow" />
+                <img className="rounded-xl" src="/images/about/about-nexaflow.jpg" alt="About NexaFlow" style={{ width: '483px', height: '556px' }} />
                 <div className="flex items-center rounded-[32px] bg-primary py-2.5 pr-[25px] pl-[15px] absolute left-[25%] bottom-[25%]">
-                  <h6 className="font-bold text-black">Available for Work</h6>
+                  <h6 className="font-bold text-black" >Available for Work</h6>
                   <div className="w-[15px] h-[15px] rounded-full bg-[#19461a] ml-3 pulse" />
                 </div>
                 <div className="absolute -left-[10%] top-[25%] rotated_circle">
@@ -56,7 +56,7 @@ const About = () => {
                   tasks and providing the reliability you need to scale.
                 </SectionTitle.Description>
               </SectionTitle>
-              <SlideUp delay={2}>
+              <SlideUp delay={2}  >
                 <ul className="grid sm:grid-cols-2 grid-cols-1 flex-wrap gap-y-5 mt-9">
                   <li className="text-white text-xl flex items-center gap-3">
                     <FontAwesomeIcon

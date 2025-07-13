@@ -65,7 +65,7 @@ const Roadmap = () => {
             <div className="row">
               <div className="col-xl-12 col-lg-12">
                 <SectionTitle className="text-center">
-                  <SectionTitle.Name>Our Roadmap</SectionTitle.Name>
+                  {/* <SectionTitle.Name>Our Roadmap</SectionTitle.Name> */}
                   <SectionTitle.Title>
                     Building the <span className="text-primary">Future</span> of
                     AI-Powered Business
@@ -73,7 +73,15 @@ const Roadmap = () => {
                 </SectionTitle>
               </div>
             </div>
-            <div className="bg-primary rounded-2xl pt-15 pb-12.5 lg:px-15 sm:px-10 px-5 px mt-15">
+            <div style={{ marginTop: '50px'}} >
+               <img 
+               className="rounded-xl" 
+                  src="/images/roadmap/roadmap-nexaflow.jpg" 
+                  alt="Roadmap NexaFlow" 
+                />
+            </div>
+            {/* <div className="bg-primary rounded-2xl pt-15 pb-12.5 lg:px-5 sm:px-5 px-5 px mt-15">
+             
               <div className="grid md:grid-cols-2 grid-cols-1 lg:gap-x-52 gap-x-20 gap-y-[55px] justify-between relative after:absolute after:top-0 after:left-1/2 after:h-full after:w-px after:bg-black md:after:block after:hidden">
                 {roadmapData.map(({ phase, id, period, points }) => (
                   <RoadmapCard
@@ -84,8 +92,9 @@ const Roadmap = () => {
                     id={id}
                   />
                 ))}
+                
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

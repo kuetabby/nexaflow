@@ -30,9 +30,9 @@ export const menuList: DataType = [
     label: "pricing",
     path: "#pricing",
   },
-  {
-    id: 6,
-    label: "faq",
-    path: "#faq",
-  },
+  // {
+  //   id: 6,
+  //   label: "faq",
+  //   path: "#faq",
+  // },
 ];
