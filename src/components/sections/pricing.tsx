@@ -11,7 +11,7 @@ const pricingData = [
     title: "Starter",
     description:
       "Perfect for small businesses getting started with <strong>AI-powered solutions</strong>",
-    price: 49,
+    price: 20,
     period: "month",
     features: [
       { id: 1, feature: "Basic AI Agent for Decision Making", available: true },
@@ -29,7 +29,7 @@ const pricingData = [
     title: "Professional",
     description:
       "Ideal for growing businesses ready to <strong>scale with AI</strong>",
-    price: 149,
+    price: 50,
     period: "month",
     popular: true,
     features: [
@@ -48,7 +48,7 @@ const pricingData = [
     title: "Enterprise",
     description:
       "For large organizations requiring <strong>enterprise-grade AI solutions</strong>",
-    price: 499,
+    price: 150,
     period: "month",
     features: [
       { id: 1, feature: "Custom AI Agent Development", available: true },

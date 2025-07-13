@@ -6,6 +6,8 @@ import Button from "../ui/button";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBook, faPlay } from "@fortawesome/free-solid-svg-icons";
 import { Neuropolitical } from "@/utils/font";
+import Link from "next/link";
+import { socialsLink } from "@/constant/links";
 
 const Hero = () => {
   const { ref, inView } = useInView({
@@ -34,13 +36,28 @@ const Hero = () => {
                 <img src="/images/shape/dot-shape-circle.png" alt="Shape" />
               </div>
               <div className="mt-10 ">
-                <Button className="mr-4" asLinked={true} path={"#"}>
-                  Start <FontAwesomeIcon icon={faPlay} fontSize={14} />
-                </Button>
+                <Link
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  href={socialsLink.bot}
+                  className="no-underline hover:underline"
+                >
+                  <Button className="mr-4" asLinked={true} path={"#"}>
+                    Start <FontAwesomeIcon icon={faPlay} fontSize={14} />
+                  </Button>
+                </Link>
 
-                <Button asLinked={true} path={"#"}>
-                  Documentation <FontAwesomeIcon icon={faBook} fontSize={14} />
-                </Button>
+                <Link
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  href={socialsLink.whitepaper}
+                  className="no-underline hover:underline"
+                >
+                  <Button asLinked={true} path={"#"}>
+                    Documentation{" "}
+                    <FontAwesomeIcon icon={faBook} fontSize={14} />
+                  </Button>
+                </Link>
               </div>
             </SlideUp>
             {/* / END HERO DESIGN AREA */}
