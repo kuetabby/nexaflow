@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBook, faPlay } from "@fortawesome/free-solid-svg-icons";
 import { Neuropolitical } from "@/utils/font";
 import Link from "next/link";
-import { socialsLink } from "@/constant/links";
+import { contractAddress, socialsLink } from "@/constant/links";
 
 const Hero = () => {
   const { ref, inView } = useInView({
@@ -35,8 +35,13 @@ const Hero = () => {
               <div className="absolute right-[15%] top-[60%] rotated_circle">
                 <img src="/images/shape/dot-shape-circle.png" alt="Shape" />
               </div>
-              <div className="mt-10 ">
-                <Button className="mr-4" asLinked={true} path={"https://t.me/nexa_flow_bot"}>
+              <div className="mt-4 text-white">{contractAddress}</div>
+              <div className="mt-6">
+                <Button
+                  className="mr-4"
+                  asLinked={true}
+                  path={"https://t.me/nexa_flow_bot"}
+                >
                   Start <FontAwesomeIcon icon={faPlay} fontSize={14} />
                 </Button>
 

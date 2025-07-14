@@ -6,7 +6,7 @@ const data_footer = [
     link: "https://x.com/NexaFlow_Sol",
   },
   {
-    name: "Telegram",
+    name: "Nexa Agent",
     link: "https://t.me/nexa_flow_bot",
   },
   {
