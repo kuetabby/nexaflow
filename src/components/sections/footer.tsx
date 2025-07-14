@@ -21,7 +21,7 @@ const Footer = () => {
       <div className="container">
         <ul className="flex justify-center flex-wrap gap-x-10 gap-y-4 mt-4">
           {data_footer.map((e) => (
-            <li>
+            <li key={e.name}>
               <a href={e.link} className="text-gray font-normal">
                 {e.name}
               </a>
